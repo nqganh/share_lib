@@ -3,6 +3,6 @@
 class Skull {
 
 	static call(String name) {
-		println "Hello, name."
+		println "Hello, ${name}."
 	}
 }	
