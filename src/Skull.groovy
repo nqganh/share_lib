@@ -1,5 +1,8 @@
 #! /usr/bin/env groovy
 
-def call(String name = 'human') {
-  echo "Hello, ${name}."
-}
+class Skull {
+
+	def call(String name) {
+		echo "Hello, ${name}."
+	}
+}	
