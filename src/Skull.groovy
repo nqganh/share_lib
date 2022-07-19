@@ -3,6 +3,6 @@
 class Skull {
 
 	def call(String name) {
-		println "Hello, ${name}."
+		println ("Hello, $name.")
 	}
 }	
