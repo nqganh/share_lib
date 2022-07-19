@@ -2,7 +2,7 @@
 
 class Skull {
 
-	def call(String name) {
+	static call(String name) {
 		println "Hello, name."
 	}
 }	
